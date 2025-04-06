@@ -1,4 +1,10 @@
-# Jetnews sample
+# Feature-Rich Android App Based on Google Sample
+This is a discovery Android project based on an official 
+sample provided by the Android team. The goal is to explore 
+best practices in modern Android development while extending 
+the original codebase.
+
+## Jetnews sample
 Jetnews is a sample news reading app, built with
 [Jetpack Compose](https://developer.android.com/jetpack/compose). The goal of the sample is to
 showcase the current UI capabilities of Compose.
