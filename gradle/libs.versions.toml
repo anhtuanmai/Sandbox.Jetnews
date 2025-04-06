@@ -3,6 +3,8 @@
 # Do not add a dependency to an individual sample, edit the global version instead.
 #####
 [versions]
+gson = "2.12.1"
+
 accompanist = "0.37.0"
 androidGradlePlugin = "8.6.1"
 androidx-activity-compose = "1.10.0"
@@ -58,6 +60,8 @@ targetSdk = "33"
 version-catalog-update = "0.8.5"
 
 [libraries]
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+
 accompanist-adaptive = { module = "com.google.accompanist:accompanist-adaptive", version.ref = "accompanist" }
 accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity-compose" }
